@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { GitBranch, ExternalLink, ArrowUpRight, Zap } from 'lucide-react';
+import { ArrowUpRight, Zap } from 'lucide-react';
 
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null);

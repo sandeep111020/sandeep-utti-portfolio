@@ -20,7 +20,7 @@ const TechStackCarousel = () => {
   const carouselRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
   const animationRef = useRef(null);
-  const timelineRef = useRef(null);
+  // const timelineRef = useRef(null);
 
   const techStack = [
     { name: 'React', Icon: ReactIcon, color: 'from-cyan-400 to-blue-500' },
@@ -44,9 +44,9 @@ const TechStackCarousel = () => {
   useEffect(() => {
     if (!carouselRef.current) return;
 
-    const carousel = carouselRef.current;
-    const itemWidth = 150; // width + gap
-    const totalWidth = itemWidth * techStack.length;
+    // const carousel = carouselRef.current;
+    // const itemWidth = 150; // width + gap
+    // const totalWidth = itemWidth * techStack.length;
 
     // Kill previous animation if exists
     if (animationRef.current) {
@@ -70,9 +70,9 @@ const TechStackCarousel = () => {
     }
 
     return () => {
-      if (animationRef.current) {
-        animationRef.current.pause();
-      }
+      // if (animationRef.current) {
+      //   animationRef.current.pause();
+      // }
     };
   }, [isHovered, techStack.length]);
 
