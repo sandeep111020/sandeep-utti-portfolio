@@ -1,14 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, GitBranch, LinkIcon, MapPin, Send, Heart, Zap } from 'lucide-react';
+import { Mail, GitBranch, LinkIcon, MapPin, Send, Heart, Zap, Network } from 'lucide-react';
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: Mail,
       label: 'Email',
-      value: 'sandeep.k.utti@gmail.com',
-      href: 'mailto:sandeep.k.utti@gmail.com',
+      value: 'sandeep11020@gmail.com',
+      href: 'mailto:sandeep11020@gmail.com',
       color: 'from-red-500 to-pink-500'
     },
     {
@@ -26,9 +26,16 @@ const Contact = () => {
       color: 'from-blue-600 to-blue-400'
     },
     {
+      icon: Network,
+      label: 'Instagram',
+      value: 'Sandeep Kumar Utti',
+      href: 'https://www.instagram.com/_this_is_sandeep/',
+      color: 'from-pink-500 to-purple-500'
+    },
+    {
       icon: MapPin,
       label: 'Location',
-      value: 'India 🇮🇳',
+      value: 'Visakhapatnam, Andhra Pradesh, India',
       href: '#',
       color: 'from-orange-500 to-red-500'
     }

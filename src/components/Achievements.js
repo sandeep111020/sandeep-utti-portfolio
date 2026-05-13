@@ -10,8 +10,8 @@ const Achievements = () => {
       icon: Trophy,
       color: 'from-yellow-500 to-orange-500',
       year: '2023',
-      badge: '🏆 NATIONAL AWARD',
-      impact: 'Government Recognition'
+      badge: '🏆 NATIONAL LEVEL AWARD',
+      impact: 'Indian Government Recognition'
     },
     {
       title: 'Top 200 Bridgingo Hackathon',
@@ -20,11 +20,11 @@ const Achievements = () => {
       color: 'from-blue-500 to-cyan-500',
       year: '2022',
       badge: '🎯 TOP PERFORMER',
-      impact: '200+ Competition'
+      impact: 'National Level Competition'
     },
     {
       title: 'Fortune 500 Project Experience',
-      description: 'Led development for J.B. Hunt, a Fortune 500 logistics company, delivering scalable enterprise solutions impacting thousands.',
+      description: 'J.B. Hunt, a Fortune 500 logistics company, delivering scalable enterprise solutions impacting thousands.',
       icon: Award,
       color: 'from-purple-500 to-pink-500',
       year: '2022-2024',
@@ -39,6 +39,23 @@ const Achievements = () => {
       year: '2023',
       badge: '⭐ FAST-TRACK',
       impact: '1-Year Advancement'
+    },{
+      title: 'Won Team Player Award 2 times in Imaginnovate',
+      description: 'Committed to continuous learning and delivering impactful solutions in mobile and backend development.',
+      icon: Zap,
+      color: 'from-cyan-500 to-blue-500',
+      year: '2023,2025',
+      badge: '⚡ Team Player',
+      impact: 'Ongoing Growth'
+    },
+    {
+      title: 'Nominated for Beyond the Bar Award',
+      description: 'Consistently recognized for excellence in software development, innovation, and teamwork across multiple projects.',
+      icon: Crown,
+      color: 'from-yellow-400 to-yellow-600',
+      year: '2026',
+      badge: '👑 Excellence',
+      impact: 'Company-wide Recognition'
     }
   ];
 

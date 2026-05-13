@@ -164,7 +164,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
           >
             <motion.a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1vVEkdDJJCzKUaKfyIHU0RK5Lisk12UGh/view?usp=sharing"
               download
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.95 }}
@@ -207,23 +207,6 @@ const Hero = () => {
             </motion.button>
           </motion.div>
 
-          {/* Scroll Indicator */}
-          <motion.div
-            animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-          >
-            <motion.div
-              className="w-6 h-10 border-2 border-gradient-to-b from-cyan-400 to-transparent rounded-full flex justify-center relative"
-            >
-              <motion.div
-                animate={{ y: [0, 8, 0] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-                className="w-1.5 h-2 bg-gradient-to-b from-cyan-400 to-blue-500 rounded-full mt-2"
-              ></motion.div>
-            </motion.div>
-            <p className="text-xs text-gray-500 mt-4">Scroll to explore</p>
-          </motion.div>
         </motion.div>
       </div>
     </section>
