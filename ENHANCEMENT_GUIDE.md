@@ -30,7 +30,7 @@ Your React + Tailwind portfolio has been transformed into a **"Wall of Portfolio
 - **Shine Effect** on hover
 - Highlights:
   - ⭐ Promotion to Software Engineer 3 within 1 year
-  - 🏢 Fortune 500 Client (J.B. Hunt)
+  - 🏢 Fortune 500 Client
   - Full achievement badges
 
 ### 3. **Projects Section** 🎯

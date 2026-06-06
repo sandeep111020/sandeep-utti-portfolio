@@ -8,7 +8,7 @@ const Experience = () => {
       company: 'Imaginnovate Techsolutions',
       role: 'Software Engineer 3 (Full Stack Developer)',
       period: '2022 - Present',
-      location: 'Client: J.B. Hunt - Fortune 500 Logistics',
+      location: 'Client: Fortune 500 Logistics',
       description: [
         'Developed React Native mobile applications for transportation logistics',
         'Built scalable Spring Boot microservices with REST APIs',

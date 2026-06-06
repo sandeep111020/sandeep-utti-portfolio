@@ -24,7 +24,7 @@ const Achievements = () => {
     },
     {
       title: 'Fortune 500 Project Experience',
-      description: 'J.B. Hunt, a Fortune 500 logistics company, delivering scalable enterprise solutions impacting thousands.',
+      description: 'Worked with a Fortune 500 logistics company, delivering scalable enterprise solutions impacting thousands.',
       icon: Award,
       color: 'from-purple-500 to-pink-500',
       year: '2022-2024',

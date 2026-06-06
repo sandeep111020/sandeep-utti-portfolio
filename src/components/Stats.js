@@ -57,7 +57,7 @@ const Stats = () => {
       suffix: '',
       label: 'Fortune 500 Client',
       icon: '🏢',
-      description: 'J.B. Hunt - Logistics Excellence',
+      description: 'Logistics Excellence',
       color: 'from-purple-500 to-pink-500'
     },
     {

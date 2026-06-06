@@ -7,18 +7,6 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Drive App',
-      description: 'Transportation & Logistics app for J.B. Hunt built with React Native, Spring Boot, Docker & Kubernetes. Features real-time tracking, route optimization, and fleet management.',
-      impact: '🚀 Reduced delivery time by 30% for Fortune 500 client',
-      image: '/api/placeholder/400/250',
-      technologies: ['React Native', 'Spring Boot', 'Docker', 'Kubernetes', 'MySQL'],
-      github: 'https://github.com/sandeep111020',
-      live: '#',
-      category: 'logistics',
-      color: 'from-cyan-500 to-blue-500',
-      icon: '🚛'
-    },
-    {
       title: 'Face Recognition Attendance System',
       description: 'ML-powered attendance system using Python, OpenCV, and computer vision. Integrates with Android app for seamless employee tracking.',
       impact: '🤖 99.2% accuracy in face recognition',
